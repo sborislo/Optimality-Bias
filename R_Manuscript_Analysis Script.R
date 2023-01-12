@@ -1,0 +1,5 @@
+library(tidyverse)
+setwd("C:/Users/samha/Documents/GitHub/Optimality-Bias")
+optdata <- read.csv("R_Manuscript_Dataset.csv")
+optdata <- as_tibble(optdata)
+write.csv(optdata, "C:/Users/samha/Documents/GitHub/Optimality-Bias/test.csv")
