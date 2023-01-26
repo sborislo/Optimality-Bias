@@ -1,0 +1,29 @@
+---
+title: "1-31_pre-class_two planned plots"
+output: html_document
+date: '2023-01-26'
+---
+
+Plot 1: Scatterplot of relationship between perceived need for explanation (y) and perceived negligence (x), which will require:
+(1) Data: optdata
+(2) Geom-Function: geom_point
+(3) Mapping: y = both_exp, x = both_pkc
+(4) Color: expert
+(5) If I'm feeling fancy, Shape: expert
+(6) Maybe Size: not sure, depends on how close points are to each other
+
+--- In English: I'll need my dataset, to use a ggplot function that creates a
+point plot, I'll need to assign the need for explanation variable to the y-
+axis and the negligence variable to the x-axis, I'll need to group the points
+based on the target's expertise status as to create two separate points that will vary by color and (maybe) shape. I might also make all the points smaller
+or bigger (independent of grouping) depending on how close they are to one another. ---
+
+Plot 2: Bar chart of mean blame (y) based on expertise status (x), grouped by choice made (legend), which will require:
+(1) Data: optdata
+(2) Geom-Function: geom_bar
+(3) Mapping: y = both_blc, x = choice
+(4) Fill: expert
+(5) Stat: identity
+
+--- In English: I'll need my dataset, to use a ggplot function that creates a
+bar chart, I'll need to assign the blame variable to the y-axis and the choice made variable to the x-axis, I'll need to group the bars based on the target's expertise status as to create two separate bars per choice made (so two sets of two bars) that will vary by color. The bars will represent the mean blame for each grouping of choice made x expertise status. ---
