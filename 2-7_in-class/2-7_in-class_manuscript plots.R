@@ -51,7 +51,7 @@ optdata$choice = factor(optdata$choice, labels = c("Optimal", "Suboptimal"))
 optdata$expert = as_factor(expert)
 optdata$expert = factor(optdata$expert, labels = c("Expert", "Non-expert"))
 
-ggplot(optdata, aes(choice, both_blc, fill=expert)) +
+ggplot(optdata, aes(choice, both_blc, fill=as.factor(expert))) +
   geom_bar(stat="summary", position=position_dodge(.9)) + 
   scale_y_continuous(breaks=c(1:7), labels=c("1","2","3","4","5","6","7"), limits = nicelimits, expand=c(0,0)) +
   xlab("Choice") +
@@ -67,3 +67,4 @@ ggplot(optdata, aes(choice, both_blc, fill=expert)) +
                                         ymin = blame_min+(blame_max-blame_min), 
                                         max = blame_max-(blame_max-blame_min)),
                 color = "black", size = .5, width = .1, position=position_dodge(0.9))
+
