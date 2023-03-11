@@ -214,3 +214,17 @@ Mediation evidence tended to favor negligence over need for explanation, especia
 \newpage
 
 # References
+
+<!--
+
+Sam, this paper is so cool! The content is obviously outside my area of expertise and you certainly don't need my feedback on the writing itself, but I still want to share how impressed I am. It's super accessible and interesting for me as an outsider.
+
+I can see that you were able to make use of your outside knowledge of R beyond what we talked about in class. I see also that you added some formatting/markdown tweaks we didn't talk about, which is great!
+
+You have all the pieces here except for the analysis itself and references to it (with inline r code). Clearly you did do the analyses elsewhere, but they should be part of this document (or sourced by it) so that you can point to the values dynamically with in-text references rather than as static, manually entered values that won't change with your data.
+
+Regardless, the point of taking this class as a grad student is to get out of it whatever it is you think will be helpful for you and your research (and not what won't be helpful). To that end I hope you got something useful to carry forward in your work! It was a pleasure having you in class. :)
+
+17/20
+
+-->
